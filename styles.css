@@ -33,6 +33,7 @@ body {
 }
 
 input {
+  background-color: white;
   margin-top: 20px;
   border-radius: 5px;
   width: 90%;
@@ -79,4 +80,13 @@ input {
   font-size: 30px;
   color: white;
   margin-top: 80px;
+}
+
+.incorrect {
+  border: 2px solid red;
+}
+
+.warning {
+  display: none;
+  color: red;
 }

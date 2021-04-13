@@ -19,12 +19,20 @@
             calling</span
           >
           <br />
-          <input type="text" />
-          <br />
-          <input type="password" />
-          <br />
-          <button id="submit-button">Submit</button>
+          <form onsubmit="return validate()">
+            <input type="text" id="email" placeholder="Enter your email" />
+            <span id="ewarn" class="warning">Incorrect email</span>
+            <br />
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+            />
+            <span id="pwarn" class="warning">Incorrect password</span>
+            <br />
+            <button id="submit-button" type="submit">Submit</button>
         </div>
+          </form>
       </div>
       <div id="right-pane">
         <div id="illustration-container">
@@ -40,5 +48,6 @@
         </div>
       </div>
     </div>
+    <script src="./script.js">
   </body>
 </html>
