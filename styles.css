@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 #container {
   display: flex;
   flex-direction: row;
@@ -89,4 +90,35 @@ input {
 .warning {
   display: none;
   color: red;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.right-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+#SelfStream {
+  margin-top: 150px;
+  justify-self: center;
+  border: 2px solid #099dfd;
+  width: 800px;
+  height: 500px;
+}
+
+#remoteStream {
+  text-align: left;
+  margin-top: 20px;
+  justify-self: center;
+  border: 2px solid #099dfd;
+  width: 400px;
+  height: 250px;
 }
